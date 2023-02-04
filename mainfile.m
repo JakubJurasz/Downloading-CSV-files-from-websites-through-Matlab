@@ -23,6 +23,9 @@ end
 
 % Accessing website in a loop 
 for i = 1:5   
+
+pause(5)  % To close the browser and open it again
+
 % Creating new URL and opening website    
 URL_New = append('https://demanda.ree.es/visiona/baleares/formentera5m/tablas/', AA{i}, '/1');
 web(URL_New)
